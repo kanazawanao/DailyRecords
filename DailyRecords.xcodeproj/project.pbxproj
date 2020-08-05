@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FF225022477C45200182E86 /* BasicConfigForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF225012477C45200182E86 /* BasicConfigForm.swift */; };
+		1FF225042477F1D000182E86 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF225032477F1D000182E86 /* HomeView.swift */; };
+		1FF225082477FE0600182E86 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF225072477FE0600182E86 /* Diary.swift */; };
+		1FF2250C2478AFA100182E86 /* MultilineTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2250B2478AFA100182E86 /* MultilineTextView.swift */; };
+		1FF2250E2478EE6500182E86 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2250D2478EE6500182E86 /* Config.swift */; };
 		1FF9C64E24761B240007C8C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9C64D24761B240007C8C1 /* AppDelegate.swift */; };
 		1FF9C65024761B240007C8C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9C64F24761B240007C8C1 /* SceneDelegate.swift */; };
 		1FF9C65224761B240007C8C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF9C65124761B240007C8C1 /* ContentView.swift */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FF225012477C45200182E86 /* BasicConfigForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicConfigForm.swift; sourceTree = "<group>"; };
+		1FF225032477F1D000182E86 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1FF225072477FE0600182E86 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		1FF2250B2478AFA100182E86 /* MultilineTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextView.swift; sourceTree = "<group>"; };
+		1FF2250D2478EE6500182E86 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		1FF9C64A24761B240007C8C1 /* DailyRecords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyRecords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF9C64D24761B240007C8C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FF9C64F24761B240007C8C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +116,11 @@
 				1FF9C65824761B2A0007C8C1 /* LaunchScreen.storyboard */,
 				1FF9C65B24761B2A0007C8C1 /* Info.plist */,
 				1FF9C65524761B2A0007C8C1 /* Preview Content */,
+				1FF225012477C45200182E86 /* BasicConfigForm.swift */,
+				1FF225032477F1D000182E86 /* HomeView.swift */,
+				1FF225072477FE0600182E86 /* Diary.swift */,
+				1FF2250B2478AFA100182E86 /* MultilineTextView.swift */,
+				1FF2250D2478EE6500182E86 /* Config.swift */,
 			);
 			path = DailyRecords;
 			sourceTree = "<group>";
@@ -267,9 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF225022477C45200182E86 /* BasicConfigForm.swift in Sources */,
 				1FF9C64E24761B240007C8C1 /* AppDelegate.swift in Sources */,
 				1FF9C65024761B240007C8C1 /* SceneDelegate.swift in Sources */,
+				1FF225042477F1D000182E86 /* HomeView.swift in Sources */,
 				1FF9C65224761B240007C8C1 /* ContentView.swift in Sources */,
+				1FF2250E2478EE6500182E86 /* Config.swift in Sources */,
+				1FF2250C2478AFA100182E86 /* MultilineTextView.swift in Sources */,
+				1FF225082477FE0600182E86 /* Diary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
