@@ -12,6 +12,8 @@ struct Diary: View {
     @State var date = Date()
     @State var title = ""
     @State var content = ""
+    @State private var showImagePicker: Bool = false
+    @State private var image: Image? = nil
     // UserDefaults のインスタンス
     let userDefaults = UserDefaults.standard
     var body: some View {
@@ -24,7 +26,16 @@ struct Diary: View {
                 TextField("タイトル", text: $title)
                 MultilineTextView(text: $content)
                     .frame(height: 300)
-                
+                Button(action: {
+                    self.showImagePicker = true
+                }){
+                    Text("open camera")
+                }.padding()
+                    .background(Color.green)
+                    .foregroundColor(Color.white)
+                    .cornerRadius(10)
+                image?.resizable()
+                    .scaledToFit()
             }
             Section {
                 Button(action: {
@@ -33,6 +44,8 @@ struct Diary: View {
                     Text("保存")
                 }
             }
+        }.sheet(isPresented: self.$showImagePicker) {
+            PhotoCaptureView(showImagePicker: self.$showImagePicker, image: self.$image)
         }
     }
     

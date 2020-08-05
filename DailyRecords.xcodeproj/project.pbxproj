@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FEE6ED024DAF5750085B2AE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEE6ECF24DAF5750085B2AE /* ImagePicker.swift */; };
+		1FEE6ED224DAF9300085B2AE /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEE6ED124DAF9300085B2AE /* PhotoCaptureView.swift */; };
 		1FF225022477C45200182E86 /* BasicConfigForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF225012477C45200182E86 /* BasicConfigForm.swift */; };
 		1FF225042477F1D000182E86 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF225032477F1D000182E86 /* HomeView.swift */; };
 		1FF225082477FE0600182E86 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF225072477FE0600182E86 /* Diary.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FEE6ECF24DAF5750085B2AE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		1FEE6ED124DAF9300085B2AE /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
 		1FF225012477C45200182E86 /* BasicConfigForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicConfigForm.swift; sourceTree = "<group>"; };
 		1FF225032477F1D000182E86 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1FF225072477FE0600182E86 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				1FF225072477FE0600182E86 /* Diary.swift */,
 				1FF2250B2478AFA100182E86 /* MultilineTextView.swift */,
 				1FF2250D2478EE6500182E86 /* Config.swift */,
+				1FEE6ECF24DAF5750085B2AE /* ImagePicker.swift */,
+				1FEE6ED124DAF9300085B2AE /* PhotoCaptureView.swift */,
 			);
 			path = DailyRecords;
 			sourceTree = "<group>";
@@ -285,6 +291,8 @@
 				1FF225022477C45200182E86 /* BasicConfigForm.swift in Sources */,
 				1FF9C64E24761B240007C8C1 /* AppDelegate.swift in Sources */,
 				1FF9C65024761B240007C8C1 /* SceneDelegate.swift in Sources */,
+				1FEE6ED024DAF5750085B2AE /* ImagePicker.swift in Sources */,
+				1FEE6ED224DAF9300085B2AE /* PhotoCaptureView.swift in Sources */,
 				1FF225042477F1D000182E86 /* HomeView.swift in Sources */,
 				1FF9C65224761B240007C8C1 /* ContentView.swift in Sources */,
 				1FF2250E2478EE6500182E86 /* Config.swift in Sources */,
